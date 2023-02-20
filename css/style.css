@@ -119,16 +119,10 @@ img{
 
   
   /* Requirement 11 code here -- Do not remove this comment. */
-  a.skip{
-    background: white;
-    padding: 6px;
-    -webkit-transition: top 1s ease-out;
-    transition: left 1s ease-out;
-    z-index: 1;
-    position: absolute;
-    left: 0px;
-    top: 20px;  
-  }
+ a.skip:focus{
+  left:0px;
+  top:20px;
+ }
  
 
 
