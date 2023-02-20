@@ -141,13 +141,8 @@ img{
 
 
   /* Requirement 13 code here -- Do not remove this comment. */
-  #about, #method{
-    grid-column-start: 3;
-    grid-column-end: 6;
-  }
-  .clients-image, .contact-image{
-    grid-column-start: 3;
-    grid-column-end: 6;
+  #about, #method, .clients-image, .contact-image{
+    grid-column: 3/span 2;
   }
 
   /* Requirement 14 code here -- Do not remove this comment. */
@@ -157,7 +152,7 @@ img{
 
   /* Requirement 15 code here -- Do not remove this comment. */
   img{
-    max-height: 300px;
+    overflow: hidden;
   }
 }
 
